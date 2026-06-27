@@ -41,3 +41,8 @@ bot.on("text", async (ctx) => {
 bot.launch();
 
 console.log("Bot đang chạy...");
+
+
+console.log("BOT_TOKEN:", process.env.BOT_TOKEN ? "OK" : "Missing");
+console.log("GROQ_API_KEY:", process.env.GROQ_API_KEY ? "OK" : "Missing");
+
